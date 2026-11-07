@@ -1,0 +1,12 @@
+note Functions: a name after "to" is highlighted as entity.name.function
+
+to greet with name
+    show "Hello, " + name
+
+to factorial with n
+    if n is at most 1 then
+        give back 1
+    give back n * factorial with n - 1
+
+greet with "Mara"
+show factorial with 5

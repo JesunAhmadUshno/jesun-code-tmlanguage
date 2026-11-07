@@ -1,0 +1,7 @@
+note Strings: escapes, interpolation, and a comment word inside quotes
+
+title is "Report for {name}\n"
+quote is "She said \"note this\" and left"
+path is 'C:\\data\\{year}'
+show "Total: {total} items"
+show title + quote

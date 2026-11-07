@@ -1,0 +1,6 @@
+note Known limits, English mode. The grammar ignores the file's mode.
+note 1) A Bangla keyword used as an ordinary name still gets keyword colour:
+এর is 5
+show এর
+note 2) Interpolation is one flat regex: in {{title}} only the inner braces match.
+card is "<h2>{{title}}</h2>"
